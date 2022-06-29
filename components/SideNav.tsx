@@ -12,10 +12,11 @@ const items = [
   {
     title: 'Project Path',
     links: [
-      {href: '/docs/project-timeline', children: 'Timline', status:"", links:[] },
-      {href: '/docs/frontend-prototype', children: 'Frontend Prototype', status:"", links:[] },
+      {href: '/docs/project-timeline', children: 'Timline', links:[] },
+      {href: '/docs/frontend-prototype', children: 'Frontend Prototype', links:[] },
       {  
         children: 'Backend Guidance',
+        href: 'nest',
         links: [
           { href: '/docs/guidance-azure-stack', title: 'Azure Stack' },
           { href: '/docs/guidance-azure-api', title: 'POP API' },
@@ -24,6 +25,7 @@ const items = [
       {href: '/docs/third-party-payment', children: '3rd Payment Options', links:[]},
       {
         children: 'Enerpro Payment Links',
+        href: 'nest2',
         links:[
           { href: '/docs/payment-links', title: 'Online Payment' },
           { href: '/docs/payment-links-2', title: 'Feature Updates' },
@@ -76,25 +78,25 @@ export function SideNav() {
           <span className="block">{item.title}</span>
           <ul className="flex flex-col mb-6">
             {item.links.map((link) => {
-              if(typeof link.href ==='string') {
+              if(!link.href.includes('nest')) {
                 const active = router.pathname === link.href;
                 return (
                   <li key={link.href} className="{active ? 'active' : ''} pl-4 pb-1">
                     <Link {...link}>
-                      <a href={link.href}>{link.status} {link.children}</a>
+                      <a href={link.href}> {link.children}</a>
                     </Link>
                   </li>
                 );
               }  else {
                 return (
                   <li key={link.href+'z'} className="pl-4">
-                    {link.status} {link.children}
+                    {link.children}
                       <ul className="flex flex-col mb-2">
                          {link.links.map((link) => {
                             return (
                               <li key={link.href} className="{active ? 'active' : ''} pl-4 text-sm">
                                 <Link {...link}>
-                                  <a href={link.href}>{link.status} {link.title}</a>
+                                  <a href={link.href}> {link.title}</a>
                                 </Link>
                               </li>
                             );

@@ -15,7 +15,7 @@ Read the [Overview](/docs) to get a grasp of this site.
 
 
 ### Project Path
-Read the Project Path [Timeline](/docs/timeline) to review the work done to date.  It is in reverse cronological order, so start at the bottom your first time through.
+Read the Project Path [Timeline](/docs/project-timeline) to review the work done to date.  It is in reverse cronological order, so start at the bottom your first time through.
 
 Read about the individual projects in the Project Path section.  These projects will be fleshed out as necessary to suport SRED claims and Enerpro's other needs.
 
