@@ -1,0 +1,10 @@
+# Current Focus: Enerpro Payment Links
+
+This will be fleshed out in the immediate future:
+- implement requested [Feature Updates](/docs/payment-links-2)
+- get Enerpro Strips Account Credentials
+- get Enerpro Azure Cloud credentails
+- get desired subdomain to be used for EPL
+- configure DNS with subdomain
+- congiure hosting for subdomain
+- install into production

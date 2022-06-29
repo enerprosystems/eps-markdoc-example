@@ -1,0 +1,5 @@
+# Log: Early 2022
+
+Await SRED feedback and example regarding the level of detail necessary.
+
+For now refer to the [Timeline](/docs/project-timeline)
