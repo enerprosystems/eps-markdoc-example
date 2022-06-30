@@ -10,7 +10,7 @@ Stripe Payment Links would involve an export of invoice data from MS Access, a u
 ## Deliverable
 A responsive web application that faciliates online payments via Stripe and records the payment transaction in Azure SQL.  The application accepts URL parameters of account number and amount; when these are present they are autofilled for the customer.
 
-https://enerpro.iofusion.com?account=ACCOUNT-NUMBER&amount=AMOUNT
+https://enerpro.iofusion.com?account=ACCOUNT-NUMBER&amount=AMOUNT&email=EMAIL
 
 Added basic support to install as web app on iOS to help give an idea future possibilities with this technology stack.
 
