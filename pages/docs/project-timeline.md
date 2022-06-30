@@ -1,6 +1,6 @@
 # Project Timeline
 
-A reverse cronoglogical history of project work that aims to clarify the rationale for the branch projects and changes in direction that have and will continue to occur as we work to build software solutions.  Value as SRED claim evidence and developer orientation.  More details about each project are available in the Project Path sections.
+A reverse chronological history of project work that aims to clarify the rationale for the branch projects and changes in direction that have and will continue to occur as we work to build software solutions.  Value as SRED claim evidence and developer orientation.  More details about each project are available in the Project Path sections.
 
 First time here?  Start from the bottom to follow the flow of the development progress.
 
@@ -27,7 +27,7 @@ This website.
 ## May 2022
 
 ### PoP Portal Presentation
-Demonstration of portal work to date.  Single page menu free user interface meeting (exceeding) front end behviour goals set for orginal prototype.  The proof of precedure demonstrated interaction with all layers of the stack necessary for production.  The following technologies were used:
+Demonstration of portal work to date.  Single page menu free user interface meeting (exceeding) front end behaviour goals set for original prototype.  The proof of procedure demonstrated interaction with all layers of the stack necessary for production.  The following technologies were used:
 
 - Web Application
 - Auth0
@@ -54,15 +54,15 @@ Development work continues and a rough a potential development path is outline i
 
 Discussions begin with Wayne regarding potential development of Enerpro's backend.
 
-### Proof of Proecdure
-Development work contines on Portal PoP.
+### Proof of Procedure
+Development work continues on Portal PoP.
 
 ## March 2022
-Stripe Payment Links was selected from the available 3rd party options.  SPLs would involve an export of invoice data from MS Access, a utility to automate the production of SPLs, and an import of the SPLs back into MS Access.  To avoid this monthly chore Enerpro Payment Links was pitched.  This solution uses data already available in MS Access and eliminates the need to create Payment Links.  The workload was estimatd to be equivalent Stripe Payment Links.
+Stripe Payment Links was selected from the available 3rd party options.  SPLs would involve an export of invoice data from MS Access, a utility to automate the production of SPLs, and an import of the SPLs back into MS Access.  To avoid this monthly chore Enerpro Payment Links was pitched.  This solution uses data already available in MS Access and eliminates the need to create Payment Links.  The workload was estimated to be equivalent Stripe Payment Links.
 
 ### Enerpro Payment Links
-Raw prototype created proving viability.  The following technologies were used to develoep and program the solution:
-- Web Appplication
+Raw prototype created proving viability.  The following technologies were used to develop and program the solution:
+- Web Application
 - Stripe
 - Azure API Management
 - Azure Function App
@@ -79,13 +79,13 @@ Sarthak the backend developer is leaving Enerpro at the end of February.  After 
 summarized options for moving forward and the following were selected.
 
 ### Proof of Procedure Prototype
-This involves a limited fullstack proof.  From Azure SQL to user interface, interacting with all layers and SaaS providers.  The value of this option was to utilize Sarthak's operational knowledge and to try to get an estimate on the timeline to production for the portal  The front-end completeness would take a backseat to performing the critial full stack bill retrevial and payment transaction.  Development work on the front end prototype shifts towards the PoP.
+This involves a limited fullstack proof.  From Azure SQL to user interface, interacting with all layers and SaaS providers.  The value of this option was to utilize Sarthak's operational knowledge and to try to get an estimate on the timeline to production for the portal  The front-end completeness would take a backseat to performing the critical full stack bill retrieval and payment transaction.  Development work on the front end prototype shifts towards the PoP.
 
 ### POP API Guidance
 Provide requested guidance to Enerpro's internal developer on the API to support the PoP Prototype. [Minimal API for PoP Prototype](/docs/guidance-azure-api)
 
 ### 3rd Payment Options
-As a fallback it makes sense to understand the third party payment options that might address Enerpro's upcomming online payment requirements.  This deliverable includes guideance documentaiton and live demos of Stripe's quick Payment Links and more Invoices.  [3rd Party Payment Options](/docs/third-party-payment)
+As a fallback it makes sense to understand the third party payment options that might address Enerpro's upcoming online payment requirements.  This deliverable includes guidance documentation and live demos of Stripe's quick Payment Links and more Invoices.  [3rd Party Payment Options](/docs/third-party-payment)
 
 
 ## January 2022
@@ -100,7 +100,7 @@ External work the team updating the corporate website.
 
 ### Portal Prototype
 
-Develop frontend prototype to explore and document requirements for Enerpro's cusotmer portal.  Use the articulated requirements refine the prototype for production and to document the backend requirements.
+Develop frontend prototype to explore and document requirements for Enerpro's customer portal.  Use the articulated requirements refine the prototype for production and to document the backend requirements.
 
 ### Azure Stack Guidance
 
