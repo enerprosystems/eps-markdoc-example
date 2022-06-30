@@ -57,7 +57,9 @@ A button with the payment link can be added direclty to the PDF invoice during i
 There are a few options for reconcilliation. Stripes own customer portal provides a reporting dashboard with filters and export options. There is an endpoint that can be querried, and webhooks can be used for automatic notification.
 
 #### Demo
-I will send live demos of this option later today.
+[Email: Email links as text in an email](/emails/payment-links)
+
+[Email: Email link embded in Invoice](/assets/pdfs/SampleInvoiceWithButton.pdf)
 
 
 
@@ -82,7 +84,9 @@ Invoices are created individually. The demos I will send later today were create
 Stripe Invoices manages reconciliation of invoice payments. They automate reminders and past due notices and provide analytics of the ongoing process. I would imagine that if the Invoices service was chosen reconcilliation would be automatic, until Enepro’s Access processes required the data for the next step.
 
 #### Demo
-Add this next
+
+[Email: PDF of an mail with a Stripe Invocie](/assets/pdfs/StripeInvoiceDemo.pdf)
+
 
 
 
