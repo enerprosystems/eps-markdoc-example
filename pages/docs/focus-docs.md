@@ -1,4 +1,4 @@
-# Current Focus: Doumentation Site
+# Current Focus: Documentation Site
 
 This will be fleshed out in the immediate future:
 - complete existing pages

@@ -3,8 +3,8 @@
 This will house detail about Enerpro's use of this service.
 
 It will include:
-- user credentails
-- all Enerpro software utlizing this service.
+- user credentials
+- all Enerpro software utilizing this service.
   - how to configure it for each client
   - how to maintain it for each client
 
